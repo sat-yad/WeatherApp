@@ -1,0 +1,6 @@
+.weather-app-text:hover {
+  color: blue; /* Change to your desired color */
+}
+.weather-card:hover .weather-card-text {
+  color: rgb(77, 123, 198); /* Change to your desired color */
+}

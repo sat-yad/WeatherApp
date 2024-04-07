@@ -18,3 +18,14 @@
   border-radius: 10px;
   border: 1px solid rgba(225, 225, 225, 0.18);
 }
+.shadow-custom {
+  box-shadow: 0 4px 6px rgba(17, 139, 191, 0.1),
+    0 1px 3px rgba(17, 139, 191, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.shadow-custom:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 255, 0.1), 0 1px 3px rgba(0, 0, 255, 0.08),
+    0 0 20px rgba(0, 0, 255, 0.25),
+    /* Light blue shadow */ 0 0 40px rgba(0, 0, 255, 0.15); /* Light blue shadow */
+}
