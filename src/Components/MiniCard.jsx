@@ -1,5 +1,8 @@
 /* eslint-disable react/prop-types */
 import React, { useEffect, useState } from "react";
+
+// import { Link } from "react-router-dom";
+
 import sun from "../assets/Icons/sun.png";
 import cloud from "../assets/Icons/cloud.png";
 import fog from "../assets/Icons/fog.png";
@@ -31,7 +34,7 @@ const MiniCard = ({ time, temp, iconString }) => {
     }
   }, [iconString]);
   return (
-    <div className="glassCard w-[10rem] h-[10rem] p-4 flex flex-col">
+    <div className="glassCard w-[10rem] h-[10rem] p-4 flex flex-col hover:scale-105 transform transition duration-300 ease-in-out">
       <p className="text-center">
         {
           new Date(time)
